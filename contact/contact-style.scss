@@ -1,0 +1,14 @@
+#contact{
+
+    #contact-grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .form{
+            margin-right:5%;
+        }
+    }
+    span{
+        font-weight: bold;
+    }
+}

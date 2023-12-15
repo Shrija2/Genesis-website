@@ -1,0 +1,10 @@
+#contact #contact-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#contact #contact-grid .form {
+  margin-right: 5%;
+}
+#contact span {
+  font-weight: bold;
+}
