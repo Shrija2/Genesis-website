@@ -1,6 +1,9 @@
 //Global
 $text-color: #242424;
 $green: #289025;
+body {
+  font-family: DM Sans;
+}
 h1,
 h2,
 h3 {
@@ -128,6 +131,27 @@ header {
   }
 }
 
+//Working areas
+#working-areas {
+  .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  li {
+    list-style-type: none;
+    padding: 1.5%;
+  }
+  img {
+    margin-right: 1%;
+  }
+}
+
 //Clients
 #client-partners {
   h1 {
@@ -136,7 +160,7 @@ header {
   }
   .client-grid {
     display: grid;
-    grid-template-columns: 25% 25% 10% 10% 10%;
+    grid-template-columns: 20% 20% 10% 10% 10% 10% 10%;
     justify-content: space-between;
 
     img,

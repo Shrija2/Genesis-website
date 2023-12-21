@@ -1,0 +1,54 @@
+#projects-section {
+  text-align: center;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  justify-content: space-between;
+  .heading {
+    font-size: 2rem;
+  }
+
+  .experiences {
+    border: solid 3px;
+    border-color: #289025;
+    padding: 5%;
+  }
+  .experiences:hover {
+    background-color: #289025;
+    cursor: pointer;
+  }
+  .details {
+    font-size: 1.2rem;
+  }
+}
+
+//project2
+.theme {
+  .heading2 {
+    background-color: #289025;
+    color: white;
+    padding: 2%;
+    text-align: center;
+  }
+  span {
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  .assignments {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-between;
+    padding: 2%;
+    div {
+      margin-bottom: 8%;
+    }
+  }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}

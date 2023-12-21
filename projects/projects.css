@@ -1,0 +1,50 @@
+#projects-section {
+  text-align: center;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  justify-content: space-between;
+}
+.category .heading {
+  font-size: 2rem;
+}
+.category .experiences {
+  border: solid 3px;
+  border-color: #289025;
+  padding: 5%;
+}
+.category .experiences:hover {
+  background-color: #289025;
+  cursor: pointer;
+}
+.category .details {
+  font-size: 1.2rem;
+}
+
+.theme .heading2 {
+  background-color: #289025;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+.theme span {
+  font-weight: bold;
+}
+.theme p {
+  margin-bottom: 5px;
+}
+.theme .assignments {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  justify-content: space-between;
+  padding: 2%;
+}
+.theme .assignments div {
+  margin-bottom: 8%;
+}
+.theme h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}/*# sourceMappingURL=projects.css.map */
