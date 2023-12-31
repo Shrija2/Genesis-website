@@ -52,3 +52,50 @@
     font-weight: bold;
   }
 }
+#accordian-projects {
+  .grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
+//Accoprdian experiences
+
+#accordian-experiences {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+  .accordiaProjects {
+    border: solid 1px #289025;
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordiaProjects:hover {
+    background-color: #289025;
+    color: white;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .list {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .client1,
+  .location1,
+  .timeline1 {
+    display: inline-block;
+  }
+
+  label {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "LandResourceMapping": [
+      {
+        "Sankhuwasabha District": [
+          {
+            "para": "The project included ",
+            "Client": "GoN/Department of Survey/Topographical Survey & Landuse Management Division",
+            "Location": "Sankhuwasabha District",
+            "Timeline": "January 2021-June-2021"
+          }
+        ]
+      },
+      {
+        "Jumla District": [
+          {
+            "para": "The project ",
+            "Client": "GoN/Department of Survey/Topographical Survey & Landuse Management Division",
+            "Location": "Jumla District",
+            "Timeline": "January 2021-June-2021"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ForestryNaturalResources": [
+      {
+        "Re-measurement and Establishment(Middle Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      },
+      {
+        "Re-measurement and Establishment(High Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "UrbanMap": [
+      {
+        "Kageshwari Manohara Municipality": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "Kageshwori Manohara Municipality Office, Kathmandu",
+            "Location": "Kageshwori Manohara Municipality, Kathmandu",
+            "Timeline": "June 2018- April 2019"
+          }
+        ]
+      },
+      {
+        "Re-measurement and Establishment(High Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "HazardStudies": [
+      {
+        "Re-measurement and Establishment(Middle Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      },
+      {
+        "Re-measurement and Establishment(High Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RSLUP": [
+      {
+        "Re-measurement and Establishment(Middle Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      },
+      {
+        "Re-measurement and Establishment(High Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Training": [
+      {
+        "Re-measurement and Establishment(Middle Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      },
+      {
+        "Re-measurement and Establishment(High Mountain Region)": [
+          {
+            "para": "The project included field inventory of soil, agro-forest,",
+            "Client": "GoN/FRTC",
+            "Location": "Middle Mountain of Nepal",
+            "Timeline": "Dec 2019 - Dec 2020"
+          }
+        ]
+      }
+    ]
+  }
+]

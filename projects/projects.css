@@ -47,4 +47,44 @@
 .theme h3 {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+#accordian-projects .grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+#accordian-projects .grid h3 {
+  font-size: 1.5rem;
+}
+
+#accordian-experiences {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the accordion panel. Note: hidden by default */
+}
+#accordian-experiences .accordiaProjects {
+  border: solid 1px #289025;
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  transition: 0.4s;
+}
+#accordian-experiences .active,
+#accordian-experiences .accordiaProjects:hover {
+  background-color: #289025;
+  color: white;
+}
+#accordian-experiences .list {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+#accordian-experiences .client1,
+#accordian-experiences .location1,
+#accordian-experiences .timeline1 {
+  display: inline-block;
+}
+#accordian-experiences label {
+  font-weight: bold;
 }/*# sourceMappingURL=projects.css.map */

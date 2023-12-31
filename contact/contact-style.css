@@ -7,4 +7,16 @@
 }
 #contact span {
   font-weight: bold;
+}
+#contact button {
+  background-color: #289025;
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+  border: none;
+}
+#contact button:hover {
+  background-color: white;
+  color: #289025;
+  border: solid 1px #289025;
 }/*# sourceMappingURL=contact-style.css.map */

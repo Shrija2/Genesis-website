@@ -114,6 +114,17 @@ header li:hover {
   font-weight: 500;
   text-align: center;
 }
+#home-projects .seemore {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+}
+#home-projects .seemore a {
+  padding-top: 30%;
+}
+#home-projects .seemore a:hover {
+  color: #289025;
+}
 
 #working-areas .grid {
   display: grid;
