@@ -60,31 +60,72 @@
 #accordian-experiences {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* Style the accordion panel. Note: hidden by default */
 }
-#accordian-experiences .accordiaProjects {
+#accordian-experiences .accordianProjects {
   border: solid 1px #289025;
   background-color: white;
   cursor: pointer;
   padding: 18px;
   transition: 0.4s;
+  margin-bottom: 20px;
+  width: 20rem;
+  font-size: 1.2rem;
 }
 #accordian-experiences .active,
-#accordian-experiences .accordiaProjects:hover {
+#accordian-experiences .accordianProjects:hover {
   background-color: #289025;
   color: white;
 }
-#accordian-experiences .list {
-  padding: 0 18px;
+
+#projectsList3,
+#projectsList2,
+#projectsList,
+#projectsList4,
+#projectsList5,
+#projectsList6,
+#projectsList7 {
   display: none;
-  overflow: hidden;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
-#accordian-experiences .client1,
-#accordian-experiences .location1,
-#accordian-experiences .timeline1 {
+
+.para1,
+.client1,
+.location1,
+.timeline1 .inline-block,
+img {
   display: inline-block;
+  margin-bottom: 10px;
 }
-#accordian-experiences label {
+
+label {
+  font-weight: bold;
+}
+
+.projectImg-div {
+  width: 100%;
+  height: 300px;
+}
+
+.projectImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.itemClass {
+  display: grid;
+  grid-template-columns: 37% 57%;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+span {
   font-weight: bold;
 }/*# sourceMappingURL=projects.css.map */

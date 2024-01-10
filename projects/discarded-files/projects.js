@@ -48,7 +48,6 @@ xhttp.onreadystatechange = function () {
             let paragraph = document.createElement("p");
             paragraph.textContent = firstParameter;
             listElement.appendChild(paragraph);
-            console.log(mapping[j].);
           }
         } else if (i === 1) {
           for (let j = 0; j < mapping2.length; j++) {

@@ -1,0 +1,181 @@
+[
+  {
+    "LandResourceMapping": [
+      {
+        "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of Sankhuwasabha District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present preparation of Municipal Level Present  Present preparation of Municipal Level Present  Present preparation of Municipal Level Present ",
+        "Client": "GoN/Department of Survey/Topographical Survey & Landuse Management Division",
+        "Location": "Sankhuwasabha District",
+        "Timeline": "January 2021-June-2021"
+      },
+      {
+        "title": "Preparation of Gaunpalika/Nagarpalika Level Land Resource Maps, Database and Reports of Jumla District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
+        "Client": "GoN/Department of Survey/Topographical Survey & Landuse Management Division",
+        "Location": "Jumla District",
+        "Timeline": "August 2019-January-2020"
+      },
+      {
+        "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of Palpa District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out ",
+        "Client": "GoN/NLUP",
+        "Location": "Palpa District",
+        "Timeline": "December 2017-May 2018"
+      },
+      {
+        "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of 12 VDCs of Bara District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, forest, and other land uses; study and mapping of multi-hazards (seismic hazard and flood) assessment and mapping of terrestrial ecosystems, baseline data collection of terrestrial ecosystem and population for environmental sustainability and land use planning at VDC/town level",
+        "Client": "MoLRM/UP",
+        "Location": "12 VDCs of Bara District",
+        "Timeline": "April 2013-Sept 2013"
+      },
+      {
+        "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of 5 VDCs of Jhapa District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
+        "Client": "GoN/NLUP",
+        "Location": "5 VDCs of Jhapa District",
+        "Timeline": "December 2015-May 2016"
+      },
+      {
+        "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of Dumkibas and Daunnedevi VDCs of Nawalparasi District",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
+        "Client": "MoLRM/UP",
+        "Location": "Nawalparasi District",
+        "Timeline": "December 2017-May 2018"
+      }
+    ]
+  },
+  {
+    "ForestryNaturalResources": [
+      {
+        "title": "Bamboo Resource Assessment (Outside the Forest Area)",
+        "img": "../images/Bamboo_project.jpg",
+        "para": "Bamboo resource assessment was carried outside the forest area of whole Nepal. The bamboo plots were located and recorded along with all the measurements and sample collection for biomass calculation. Density and abundance mapping of each major bamboo species was carried out. Bamboo distribution was also analysed using Google Earth Engine.  ",
+        "Client": "GoN/FRTC",
+        "Location": "Nepal",
+        "Timeline": ""
+      },
+      {
+        "title": "Re-measurement and Establishment(Middle Mountain Region)",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "Re-measurement of 165 Permanent Sample Plots and measurement of 336 additional plots established during the Forest Resource Assesment (FRA) 2010 – 2014 in Middle Mountain physiographic regions to collect verious plot level biophysical attributs documented in FRA Field Manual for National Forest Monitoring System;",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      },
+      {
+        "title": "Re-measurement and Establishment(High Mountain Region)",
+        "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain physiographic region in coordination with FRTC to collect various plot level biophysical attributes including bamboo resources within CCSP’s based on FRA Field Manual for Forest Resource Assessment (FRA) to prepare National Forest Monitoring System;",
+        "Client": "GoN/FRTC",
+        "Location": "High Himal Region of Nepal : Jumla, Dolpa, Jajarkot, Manang, Mustang, Baglung and Gorkha districts",
+        "Timeline": "August 2019-January-2020"
+      },
+      {
+        "title": "National Forest Inventory Re-measurement of Plots (Cluster 1: Sample Plot Measurement in Middle Mountain)",
+        "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain (180 plots starting from the eastern part of Nepal) physiographic regions to collect the various plot level biophysical attributes documented in FRA Field Manual for National Forest Monitoring System;",
+        "Client": "GoN/MoFE REDD Implementation Center",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "March 2019- June 2019"
+      }
+    ]
+  },
+  {
+    "UrbanMap": [
+      {
+        "title": "Urban Base Map and Municipal GIS of Kageshwari Manohara Municipality",
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "Kageshwori Manohara Municipality Office, Kathmandu",
+        "Location": "Kageshwori Manohara Municipality, Kathmandu",
+        "Timeline": "June 2018- April 2019"
+      },
+      {
+        "title": "Urban Map of Amargadhi Municipality",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      }
+    ]
+  },
+  {
+    "HazardStudies": [
+      {
+        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "title": "High Resolution Digital Elevation Model (DEM) of Koshi Basin",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      },
+      {
+        "title": "Flood Warning and Danger of Mohana and Macheli River",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      }
+    ]
+  },
+  {
+    "RSLUP": [
+      {
+        "title": "RSLUP of four municipalities (TAYAR Nepal)",
+        "img": "../images/Tayar-bhimeshwor-project.JPG",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      },
+      {
+        "title": "RSLUP of Changunarayan Municipality",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      }
+    ]
+  },
+  {
+    "Training": [
+      {
+        "title": "RSLUP and bye-laws of Kathmandu Valley",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      },
+      {
+        "title": "Capacity Building on Urban base map and Municipal GIS",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      }
+    ]
+  },
+  {
+    "UAV": [
+      {
+        "title": "RSLUP and bye-laws of Kathmandu Valley",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      },
+      {
+        "title": "Capacity Building on Urban base map and Municipal GIS",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Middle Mountain of Nepal",
+        "Timeline": "Dec 2019 - Dec 2020"
+      }
+    ]
+  }
+]
