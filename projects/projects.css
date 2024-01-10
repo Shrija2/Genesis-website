@@ -78,6 +78,10 @@
   background-color: #289025;
   color: white;
 }
+#accordian-experiences .accordianProjects:active {
+  background-color: #289025;
+  color: white;
+}
 
 #projectsList3,
 #projectsList2,
@@ -85,7 +89,11 @@
 #projectsList4,
 #projectsList5,
 #projectsList6,
-#projectsList7 {
+#projectsList7,
+#projectsList8,
+#projectsList9,
+#projectsList10,
+#projectsList11 {
   display: none;
   margin-left: 5rem;
   margin-right: 5rem;
@@ -128,4 +136,8 @@ label {
 
 span {
   font-weight: bold;
+}
+
+.innerDivClass {
+  padding-top: 1rem;
 }/*# sourceMappingURL=projects.css.map */

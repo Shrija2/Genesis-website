@@ -19,7 +19,7 @@
       },
       {
         "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of Palpa District",
-        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "img": "",
         "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out ",
         "Client": "GoN/NLUP",
         "Location": "Palpa District",
@@ -27,7 +27,7 @@
       },
       {
         "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of 12 VDCs of Bara District",
-        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "img": "",
         "para": "The project included field inventory of soil, forest, and other land uses; study and mapping of multi-hazards (seismic hazard and flood) assessment and mapping of terrestrial ecosystems, baseline data collection of terrestrial ecosystem and population for environmental sustainability and land use planning at VDC/town level",
         "Client": "MoLRM/UP",
         "Location": "12 VDCs of Bara District",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of 5 VDCs of Jhapa District",
-        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "img": "",
         "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
         "Client": "GoN/NLUP",
         "Location": "5 VDCs of Jhapa District",
@@ -43,7 +43,7 @@
       },
       {
         "title": "Preparation of Municipality/Rural Municipality Level Land Resource Maps, Database and Reports of Dumkibas and Daunnedevi VDCs of Nawalparasi District",
-        "img": "../images/Sankhuwasabha-landuse.JPG",
+        "img": "",
         "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
         "Client": "MoLRM/UP",
         "Location": "Nawalparasi District",
@@ -54,14 +54,6 @@
   {
     "ForestryNaturalResources": [
       {
-        "title": "Bamboo Resource Assessment (Outside the Forest Area)",
-        "img": "../images/Bamboo_project.jpg",
-        "para": "Bamboo resource assessment was carried outside the forest area of whole Nepal. The bamboo plots were located and recorded along with all the measurements and sample collection for biomass calculation. Density and abundance mapping of each major bamboo species was carried out. Bamboo distribution was also analysed using Google Earth Engine.  ",
-        "Client": "GoN/FRTC",
-        "Location": "Nepal",
-        "Timeline": ""
-      },
-      {
         "title": "Re-measurement and Establishment(Middle Mountain Region)",
         "img": "../images/Sankhuwasabha-landuse.JPG",
         "para": "Re-measurement of 165 Permanent Sample Plots and measurement of 336 additional plots established during the Forest Resource Assesment (FRA) 2010 – 2014 in Middle Mountain physiographic regions to collect verious plot level biophysical attributs documented in FRA Field Manual for National Forest Monitoring System;",
@@ -70,6 +62,7 @@
         "Timeline": "Dec 2019 - Dec 2020"
       },
       {
+        "img": "",
         "title": "Re-measurement and Establishment(High Mountain Region)",
         "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain physiographic region in coordination with FRTC to collect various plot level biophysical attributes including bamboo resources within CCSP’s based on FRA Field Manual for Forest Resource Assessment (FRA) to prepare National Forest Monitoring System;",
         "Client": "GoN/FRTC",
@@ -77,11 +70,36 @@
         "Timeline": "August 2019-January-2020"
       },
       {
+        "img": "",
         "title": "National Forest Inventory Re-measurement of Plots (Cluster 1: Sample Plot Measurement in Middle Mountain)",
         "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain (180 plots starting from the eastern part of Nepal) physiographic regions to collect the various plot level biophysical attributes documented in FRA Field Manual for National Forest Monitoring System;",
         "Client": "GoN/MoFE REDD Implementation Center",
         "Location": "Middle Mountain of Nepal",
         "Timeline": "March 2019- June 2019"
+      },
+      {
+        "img": "",
+        "title": "National Forest Inventory Re-measurement of Plots (Cluster 2: Sample Plot Measurement in High Mountain and High Himal)",
+        "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain (180 plots starting from the eastern part of Nepal) physiographic regions to collect the various plot level biophysical attributes documented in FRA Field Manual for National Forest Monitoring System",
+        "Client": "GoN/MoFE REDD Implementation Center",
+        "Location": "High Mountain and High Himal of Nepal",
+        "Timeline": "March 2019- June 2019"
+      },
+      {
+        "img": "",
+        "title": "Establishment and Measurement of National Forest Inventory Sample Plots in Terai and Mid- Mountain Region",
+        "para": "Re-measurement of permanent sample plots established during the Forest Resource Assessment (FRA) 2010-2014 in Middle Mountain physiographic region in coordination with FRTC to collect various plot level biophysical attributes including bamboo resources within CCSP’s based on FRA Field Manual for Forest Resource Assessment (FRA) to prepare National Forest Monitoring System",
+        "Client": "GoN/MFSC, REDD Implementa tion Center",
+        "Location": "Terai and Mid Mountain Region",
+        "Timeline": "Feb 2018- July 2018"
+      },
+      {
+        "img": "",
+        "title": "Forest Resources Assessment – Nepal (5 year bilateral project with MoFSC and Finnish Government)",
+        "para": "National Forest Inventory using multi source approach with remote sensing, LiDAR and forest inventory, LiDAR data based forest biometric modeling for CO2 estimation, biodiversity mapping, wall-to-wall land cover mapping, development of Open Source Forest Information System, human resources development.",
+        "Client": "(MoFSC)/ (DFRS) and Finnish Government",
+        "Location": "Covering entire Nepal",
+        "Timeline": "Jan 2010- Dec 2014"
       }
     ]
   },
@@ -89,42 +107,188 @@
     "UrbanMap": [
       {
         "title": "Urban Base Map and Municipal GIS of Kageshwari Manohara Municipality",
-        "img": "../images/Sankhuwasabha-landuse.JPG",
-        "para": "The project included field inventory of soil, agro-forest,",
+        "img": "",
+        "para": "Preparation of GIS-based Integrated Municipal GIS Map of Kageshwori Manohara Municipality with 1:2500 scale for the urban area using Pleiades multispectral stereo satellite imagery of 0.5m ground resolution, system design and GIS data modeling for urban GIS, socioeconomic database, metric household numbering, street and house addressing and",
         "Client": "Kageshwori Manohara Municipality Office, Kathmandu",
         "Location": "Kageshwori Manohara Municipality, Kathmandu",
         "Timeline": "June 2018- April 2019"
       },
       {
+        "img": "",
         "title": "Urban Map of Amargadhi Municipality",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "para": "Preparation of digital base map of 1:2,500 scale using digital photogrammetry technique, image processing of high resolution GeoEye 0.5m imagery, system design and GIS data modeling for urban GIS, socio-economic census survey, metric street and house addressing; cadastral management system;",
+        "Client": "GoN/DUDBC",
+        "Location": "Dadeldhura",
+        "Timeline": "Nov. 2015 – June 2016"
+      },
+      {
+        "title": "Urban Base Map and Integrated Municipal GIS of Kathmandu Metropolitan City, Ward No -35",
+        "img": "",
+        "para": "Preparation of GIS-based Integrated Municipal GIS Map of Kathmandu Metropolitan City Ward-35 Development of Municipal Geographical Information System incorporating addressing system, existing infrastructures, demography socio-economy census survey, environment, administration units etc. Development and establishment of effective metric house",
+        "Client": "Kathmandu Metropolitan City Office",
+        "Location": "Kathmandu Metropolitan ",
+        "Timeline": "June 2018- April 2019"
+      },
+      {
+        "img": "",
+        "title": "Urban Map of Itahari Municipality",
+        "para": "Preparation of digital base map of 1:2,500 scale using digital photogrammetry technique, image processing of high resolution GEoEye 0.5m imagery, system design and GIS data modeling for urban GIS, household level socio-economic census survey , street and house addressing; cadastral management and land taxation system",
+        "Client": "GoN/DUDBC/UGDP funded by World Bank",
+        "Location": "Province 1, Sunsari District",
+        "Timeline": "Oct 2014- July, 2015"
+      },
+      {
+        "title": "Urban Map of Bhimeshwor Municipality",
+        "img": "",
+        "para": "",
+        "Client": "GoN/DUDBC",
+        "Location": "Bhimeshwor Municipality, Dolakha",
+        "Timeline": ""
+      },
+      {
+        "title": "Urban Map of Vyas Municipality",
+        "img": "",
+        "para": "",
+        "Client": "GoN/DUDBC",
+        "Location": "Vyas Municipality, Tanahun",
+        "Timeline": ""
+      },
+      {
+        "title": "Urban Map of Birendranagar Municipality",
+        "img": "",
+        "para": "",
+        "Client": "GoN/DUDBC",
+        "Location": "Birendranagar Municipality, Surkhet",
+        "Timeline": ""
+      },
+      {
+        "title": "GIS-based Digital Base Map and Creating Urban Database of Janakpur Municipality",
+        "img": "",
+        "para": "",
+        "Client": "DUDBC/SM USDP funded by ADB",
+        "Location": "",
+        "Timeline": ""
+      },
+      {
+        "title": "Digital Base Maps of Butwal Municipality",
+        "img": "",
+        "para": "",
+        "Client": "DUDBC/ISMP funded by ADB",
+        "Location": "",
+        "Timeline": ""
+      },
+      {
+        "title": "Urban Base Map and Municipal GIS for Banepa Municipality",
+        "img": "",
+        "para": "",
+        "Client": "DUDBC/UEIP funded by ADB",
+        "Location": "Banepa Municipality",
+        "Timeline": ""
+      },
+      {
+        "title": "Urban Base Map and Municipal GIS for Ratnanagar Municipality",
+        "img": "",
+        "para": "",
+        "Client": "DUDBC/UEIP funded by ADB",
+        "Location": "Ratnanagar Municipality",
+        "Timeline": ""
+      },
+      {
+        "title": "Urban Base Map and Municipal GIS for Bharatpur Municipality",
+        "img": "",
+        "para": "",
+        "Client": "DUDBC/UEIP funded by ADB",
+        "Location": "Bharatpur Municipality",
+        "Timeline": ""
+      },
+      {
+        "title": "Poverty Mapping Gender Assessment and Need Identification for the Poor in Bharatpur",
+        "img": "",
+        "para": "The project was carried out to enhance the pro-poor urban governance of municipalities and develop the basis for pro-poor program through poverty mapping and gender assessment.",
+        "Client": "Bharatpur Municipality, UEIP, UN Habitat",
+        "Location": "Bharatpur Municipality",
+        "Timeline": ""
+      },
+      {
+        "title": "Poverty Mapping Gender Assessment and Need Identification for the Poor in Panauti",
+        "img": "",
+        "para": "The project was carried out to enhance the pro-poor urban governance of municipalities and develop the basis for pro-poor program through poverty mapping and gender assessment.",
+        "Client": "Panauti Municipality, UEIP, UN Habitat",
+        "Location": "Panauti Municipality",
+        "Timeline": ""
       }
     ]
   },
   {
     "HazardStudies": [
       {
-        "img": "../images/Sankhuwasabha-landuse.JPG",
-        "title": "High Resolution Digital Elevation Model (DEM) of Koshi Basin",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "img": "../images/hazard-mohana-project.JPG",
+        "title": "Determination of Flood Warning and Danger of Mohana and Macheli River",
+        "para": "This study has been conducted to determine threshold value of discharge and water level for flood warning and danger levels at forecasting stations of Mohana and Macheli River in the Far-Western Nepal for the purpose of developing threshold-stagebased operational flood early warning system. ",
+        "Client": "Mercy Corps Nepal",
+        "Location": "Mohana River (Kailali and Kanchanpur District) and Macheli River (Kanchanpur District)",
+        "Timeline": ""
       },
       {
-        "title": "Flood Warning and Danger of Mohana and Macheli River",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "img": "",
+        "title": "Risk Hazard Map of Panauti Municipality",
+        "para": "The main objective of the project was to determine the various hazard risk to people , the physical and natural environment, their social and economic activities and critical infrastructure supporting the health and viability of the communities and settlements in the municipality",
+        "Client": "GoN/DUDBC",
+        "Location": "Panauti Municipality, Kavrepalanchowk Distric",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Risk Hazard Map of Banepa Municipality",
+        "para": "The main objective of the project was to determine the various hazard risk to people , the physical and natural environment, their social and economic activities and critical infrastructure supporting the health and viability of the communities and settlements in the municipality",
+        "Client": "GoN/DUDBC",
+        "Location": "Banepa Municipality, Kavrepalanchowk Distric",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Nepal-India Trans-boundary Resilience Project Inundation Mapping",
+        "para": " ",
+        "Client": "Lutheran World Relief (LWR)",
+        "Location": "Narayani and Triyuga and Koshi River",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Survey of River Cross Section, Discharge Measurement and Control Point Data/ Details of 10 Rivers",
+        "para": " ",
+        "Client": "GoN/DoI/WRPPF",
+        "Location": "Western and Far-Western Terai Region of Nepal",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Baseline and Socio-economic Survey of the Ecosystem Based Adaption Project Area",
+        "para": " ",
+        "Client": "UNDP/ Ecosystem Based Adaption (EBA) Project",
+        "Location": "Panchase Area, (Kaski, Parbat and Syangja Districts)",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Municipal Profile in Terms of Earthquake Risk and Vulnerability” and “Report on Impact of Settlement Pattern, Land Use Practice and Options in High Risk Areas of Five Municipalities",
+        "para": " ",
+        "Client": "GoN/Ministry of Physical Planning and Works, Earthquake Risk Reduction and Recovery Preparednes s Programme for Nepal UNDP/ ERRRP",
+        "Location": "Biratnagar Sub- Metropolitan city, Hetauda Municipality, Pokhara Sub- Metropolitan city, Birendranagar and Dhangadhi Municipality",
+        "Timeline": ""
       }
     ]
   },
   {
     "RSLUP": [
+      {
+        "title": "RSLUP pf Karnali Province",
+        "img": "../images/Karnali-RSLUP-project.JPG",
+        "para": "The project included field inventory of soil, agro-forest",
+        "Client": "UNDP",
+        "Location": "Karnali Province",
+        "Timeline": ""
+      },
       {
         "title": "RSLUP of four municipalities (TAYAR Nepal)",
         "img": "../images/Tayar-bhimeshwor-project.JPG",
@@ -134,47 +298,172 @@
         "Timeline": "Dec 2019 - Dec 2020"
       },
       {
-        "title": "RSLUP of Changunarayan Municipality",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "img": "",
+        "title": "Integrated Risk Sensitive Land Use Plan (RSLUP) and GIS based Evacuation Route Modelling for Changunarayan Municipality",
+        "para": "The project included preparation of multi-hazard vulnerability risk profiles of Changunarayan Municipality and preparation of RSLUP, Planning Regulations and building bye-laws",
+        "Client": "DanChurch Aid (DCA)",
+        "Location": "Changunarayan Municipality",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Support to Chautara Municipality to Develop Risk Sensitive Land Use Plan (RSLUP) and to Update Building Bye-Laws (Municipal Level)",
+        "para": "",
+        "Client": "UNDP/CDRMP",
+        "Location": " Chautara Municipality",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Support to Develop Risk Sensitive Land Use Plan(RSLUP) and Building Byelaws of Kathmandu Valley (22 Municipalities) with training and Capacity Building",
+        "para": "",
+        "Client": "UNDP/CDRMP",
+        "Location": "Kathmandu Valley (22 Municipalities)",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Comprehensive Study of Urban Growth Trend and Forecasting of Land Use in Kathmandu Valley",
+        "para": "",
+        "Client": "UNDP/CDRMP",
+        "Location": "Kathmandu Valley (22 Municipalities",
+        "Timeline": ""
       }
     ]
   },
   {
     "Training": [
       {
-        "title": "RSLUP and bye-laws of Kathmandu Valley",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "img": "",
+        "title": "Support to Develop Risk Sensitive Land Use Plan(RSLUP) and Building Byelaws of Kathmandu Valley (22 Municipalities) with training and Capacity Building",
+        "para": "",
+        "Client": "UNDP/CDRMP",
+        "Location": "Kathmandu Valley (22 Municipalities)",
+        "Timeline": ""
       },
       {
-        "title": "Capacity Building on Urban base map and Municipal GIS",
-        "para": "The project included field inventory of soil, agro-forest,",
-        "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "img": "",
+        "title": "Training on Capacity Building of Selected Municipalities and DUDBC Personnel on the Use of Urban Base map and Municipal GIS",
+        "para": "The primarily objective of the training was to develop institutional capacity of the municipalities to effectively use of urban base map and GIS for informed decision making and sustainable urban development Developing training curricula in conducting training for stakeholder including GoN and Municipal personnel in GIS based data management system",
+        "Client": "GoN/DUDBC",
+        "Location": "Lalitpur Sub-metropolitan City and Bhaktapur Municipality",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "Training on GIS for Capacity Building of Selected Municipalities & DUDBC Personnel on the Use of GIS Based Urban Map with Municipal Information System",
+        "para": "GIS training for developing institutional capacity and human resources of the programmed municipalities and DUDBC personnel in the application of GIS for urban planning and management. The training program had envisaged to impart technical knowledge and skills in operating GIS for using urban base map and municipal information system developed under UEIP, UDP Projects and under DUDBC's urban base mapping initiatives. Developing training",
+        "Client": "DUDBC supported by GTZ/udle & UNHabitat",
+        "Location": "Bharatpur, Chitwan",
+        "Timeline": ""
       }
     ]
   },
   {
     "UAV": [
       {
-        "title": "RSLUP and bye-laws of Kathmandu Valley",
+        "img": "",
+        "title": "",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
+      }
+    ]
+  },
+  {
+    "metric": [
+      {
+        "img": "",
+        "title": "Metric Addressing of Kageshwori Municipality",
         "para": "The project included field inventory of soil, agro-forest,",
         "Client": "GoN/FRTC",
         "Location": "Middle Mountain of Nepal",
         "Timeline": "Dec 2019 - Dec 2020"
       },
       {
-        "title": "Capacity Building on Urban base map and Municipal GIS",
+        "img": "",
+        "title": "",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
+      }
+    ]
+  },
+  {
+    "photogrammetry": [
+      {
+        "img": "",
+        "title": "High Resolution Digital Elevation Model (DEM) of Koshi Basin",
+        "para": "Develop suitable method for extraction of DEM using available very high resolution stereo imagery data, field data and spot heights from DGPS Survey",
+        "Client": "DHM/BRC H funded by World Bank",
+        "Location": "Eastern Terai Region Koshi River, D/S of Chatara Dam",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "High Resolution Digital Elevation Model (DEM) of Kageshwori Municipality",
         "para": "The project included field inventory of soil, agro-forest,",
         "Client": "GoN/FRTC",
-        "Location": "Middle Mountain of Nepal",
-        "Timeline": "Dec 2019 - Dec 2020"
+        "Location": "Kageshwori Municipality",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "High Resolution Digital Elevation Model (DEM) of Changunarayan Municipality",
+        "para": "The project included field inventory of soil, agro-forest,",
+        "Client": "GoN/FRTC",
+        "Location": "Changunarayan Municipality",
+        "Timeline": ""
+      }
+    ]
+  },
+  {
+    "bamboo": [
+      {
+        "img": "",
+        "title": "Bamboo Resource Assessment (Outside the Forest Area)",
+        "para": "Bamboo resource assessment was carried outside the forest area of whole Nepal. The bamboo plots were located and recorded along with all the measurements and sample collection for biomass calculation. Density and abundance mapping of each major bamboo species was carried out. Bamboo distribution was also analysed using Google Earth Engine.  ",
+        "Client": "GoN/FRTC",
+        "Location": "Nepal",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
+      }
+    ]
+  },
+  {
+    "dataCollection": [
+      {
+        "img": "",
+        "title": "Data Collection on Socio-Economic Status",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
+      },
+      {
+        "img": "",
+        "title": "",
+        "para": "",
+        "Client": "",
+        "Location": "",
+        "Timeline": ""
       }
     ]
   }

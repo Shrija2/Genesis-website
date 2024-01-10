@@ -110,6 +110,86 @@ uav.addEventListener("click", function () {
   projectsList4.style.display = "none";
   projectsList5.style.display = "none";
   projectsList6.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
+});
+let metric = document.querySelector(".metric");
+let projectsList8 = document.getElementById("projectsList8");
+metric.addEventListener("click", function () {
+  if (projectsList8.style.display === "block") {
+    projectsList8.style.display = "none";
+  } else {
+    projectsList8.style.display = "block";
+  }
+  projectsList.style.display = "none";
+  projectsList2.style.display = "none";
+  projectsList3.style.display = "none";
+  projectsList4.style.display = "none";
+  projectsList5.style.display = "none";
+  projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
+});
+let photogrammetry = document.querySelector(".photogrammetry");
+let projectsList9 = document.getElementById("projectsList9");
+photogrammetry.addEventListener("click", function () {
+  if (projectsList9.style.display === "block") {
+    projectsList9.style.display = "none";
+  } else {
+    projectsList9.style.display = "block";
+  }
+  projectsList.style.display = "none";
+  projectsList2.style.display = "none";
+  projectsList3.style.display = "none";
+  projectsList4.style.display = "none";
+  projectsList5.style.display = "none";
+  projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
+});
+let bamboo = document.querySelector(".bamboo");
+let projectsList10 = document.getElementById("projectsList10");
+bamboo.addEventListener("click", function () {
+  if (projectsList10.style.display === "block") {
+    projectsList10.style.display = "none";
+  } else {
+    projectsList10.style.display = "block";
+  }
+  projectsList.style.display = "none";
+  projectsList2.style.display = "none";
+  projectsList3.style.display = "none";
+  projectsList4.style.display = "none";
+  projectsList5.style.display = "none";
+  projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList11.style.display = "none";
+});
+let dataCollection = document.querySelector(".dataCollection");
+let projectsList11 = document.getElementById("projectsList11");
+dataCollection.addEventListener("click", function () {
+  if (projectsList11.style.display === "block") {
+    projectsList11.style.display = "none";
+  } else {
+    projectsList11.style.display = "block";
+  }
+  projectsList.style.display = "none";
+  projectsList2.style.display = "none";
+  projectsList3.style.display = "none";
+  projectsList4.style.display = "none";
+  projectsList5.style.display = "none";
+  projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
 });
 
 var xhttp = new XMLHttpRequest();
@@ -124,6 +204,10 @@ xhttp.onreadystatechange = function () {
     let mapping5 = response[4].RSLUP;
     let mapping6 = response[5].Training;
     let mapping7 = response[6].UAV;
+    let mapping8 = response[7].metric;
+    let mapping9 = response[8].photogrammetry;
+    let mapping10 = response[9].bamboo;
+    let mapping11 = response[10].dataCollection;
 
     var parentContainer = document.getElementById("projectsList");
 
@@ -257,9 +341,9 @@ xhttp.onreadystatechange = function () {
 
     //HAZARD
     var hazard = document.getElementById("projectsList4");
-    // Loop through the JSON data using a for loop FOREST
+
     for (var i = 0; i < mapping4.length; i++) {
-      var newDiv = document.createElement("div"); // Create a new div element
+      var newDiv = document.createElement("div");
 
       newDiv.id = "item" + mapping4[i].id;
       newDiv.className = "itemClass";
@@ -267,16 +351,15 @@ xhttp.onreadystatechange = function () {
       var projectImgDiv = document.createElement("div");
       projectImgDiv.className = "projectImg-div";
 
-      let img = document.createElement("img"); //Create img element
+      let img = document.createElement("img");
 
-      img.className = "projectImg"; //give img class name
+      img.className = "projectImg";
 
-      img.src = mapping4[i].img; //Set the src atrribute of th img
+      img.src = mapping4[i].img;
 
-      projectImgDiv.appendChild(img); //append the img to the new div
+      projectImgDiv.appendChild(img);
       newDiv.appendChild(projectImgDiv);
 
-      // Create another div inside newDiv
       var innerDiv = document.createElement("div");
       var title = document.createElement("h3");
       var para = document.createElement("p");
@@ -299,9 +382,9 @@ xhttp.onreadystatechange = function () {
 
     //RSLUP
     var RSLUP = document.getElementById("projectsList5");
-    // Loop through the JSON data using a for loop FOREST
+
     for (var i = 0; i < mapping5.length; i++) {
-      var newDiv = document.createElement("div"); // Create a new div element
+      var newDiv = document.createElement("div");
 
       newDiv.id = "item" + mapping5[i].id;
       newDiv.className = "itemClass";
@@ -309,16 +392,15 @@ xhttp.onreadystatechange = function () {
       var projectImgDiv = document.createElement("div");
       projectImgDiv.className = "projectImg-div";
 
-      let img = document.createElement("img"); //Create img element
+      let img = document.createElement("img");
 
-      img.className = "projectImg"; //give img class name
+      img.className = "projectImg";
 
-      img.src = mapping5[i].img; //Set the src atrribute of th img
+      img.src = mapping5[i].img;
 
-      projectImgDiv.appendChild(img); //append the img to the new div
+      projectImgDiv.appendChild(img);
       newDiv.appendChild(projectImgDiv);
 
-      // Create another div inside newDiv
       var innerDiv = document.createElement("div");
       var title = document.createElement("h3");
       var para = document.createElement("p");
@@ -341,9 +423,9 @@ xhttp.onreadystatechange = function () {
 
     //TRAINING
     var training = document.getElementById("projectsList6");
-    // Loop through the JSON data using a for loop FOREST
+
     for (var i = 0; i < mapping6.length; i++) {
-      var newDiv = document.createElement("div"); // Create a new div element
+      var newDiv = document.createElement("div");
 
       newDiv.id = "item" + mapping6[i].id;
       newDiv.className = "itemClass";
@@ -383,9 +465,9 @@ xhttp.onreadystatechange = function () {
 
     //UAV
     var uav = document.getElementById("projectsList7");
-    // Loop through the JSON data using a for loop FOREST
+
     for (var i = 0; i < mapping7.length; i++) {
-      var newDiv = document.createElement("div"); // Create a new div element
+      var newDiv = document.createElement("div");
 
       newDiv.id = "item" + mapping7[i].id;
       newDiv.className = "itemClass";
@@ -393,16 +475,15 @@ xhttp.onreadystatechange = function () {
       var projectImgDiv = document.createElement("div");
       projectImgDiv.className = "projectImg-div";
 
-      let img = document.createElement("img"); //Create img element
+      let img = document.createElement("img");
 
-      img.className = "projectImg"; //give img class name
+      img.className = "projectImg";
 
-      img.src = mapping7[i].img; //Set the src atrribute of th img
+      img.src = mapping7[i].img;
 
-      projectImgDiv.appendChild(img); //append the img to the new div
+      projectImgDiv.appendChild(img);
       newDiv.appendChild(projectImgDiv);
 
-      // Create another div inside newDiv
       var innerDiv = document.createElement("div");
       var title = document.createElement("h3");
       var para = document.createElement("p");
@@ -421,6 +502,167 @@ xhttp.onreadystatechange = function () {
       innerDiv.appendChild(location);
 
       uav.appendChild(newDiv);
+    }
+
+    //Metric Addressing
+    var MetricAddressing = document.getElementById("projectsList8");
+
+    for (var i = 0; i < mapping8.length; i++) {
+      var newDiv = document.createElement("div");
+
+      newDiv.id = "item" + mapping8[i].id;
+      newDiv.className = "itemClass";
+
+      var projectImgDiv = document.createElement("div");
+      projectImgDiv.className = "projectImg-div";
+
+      let img = document.createElement("img");
+
+      img.className = "projectImg";
+
+      img.src = mapping8[i].img;
+
+      projectImgDiv.appendChild(img);
+      newDiv.appendChild(projectImgDiv);
+
+      var innerDiv = document.createElement("div");
+      var title = document.createElement("h3");
+      var para = document.createElement("p");
+      var client = document.createElement("p");
+      var location = document.createElement("p");
+      innerDiv.className = "innerDivClass";
+      title.innerHTML = `<h3>${mapping8[i].title}</h3>`;
+      para.innerHTML = `<p>${mapping8[i].para}</p>`;
+      client.innerHTML = `<p><span>Client: </span>${mapping8[i].Client}</p>`;
+      location.innerHTML = `<p><span>Location: </span>${mapping8[i].Location}</p>`;
+
+      newDiv.appendChild(innerDiv);
+      innerDiv.appendChild(title);
+      innerDiv.appendChild(para);
+      innerDiv.appendChild(client);
+      innerDiv.appendChild(location);
+
+      MetricAddressing.appendChild(newDiv);
+    }
+
+    //Photogrammetry
+    var Photogrammetry = document.getElementById("projectsList9");
+
+    for (var i = 0; i < mapping9.length; i++) {
+      var newDiv = document.createElement("div");
+
+      newDiv.id = "item" + mapping9[i].id;
+      newDiv.className = "itemClass";
+
+      var projectImgDiv = document.createElement("div");
+      projectImgDiv.className = "projectImg-div";
+
+      let img = document.createElement("img");
+
+      img.className = "projectImg";
+
+      img.src = mapping9[i].img;
+
+      projectImgDiv.appendChild(img);
+      newDiv.appendChild(projectImgDiv);
+
+      var innerDiv = document.createElement("div");
+      var title = document.createElement("h3");
+      var para = document.createElement("p");
+      var client = document.createElement("p");
+      var location = document.createElement("p");
+      innerDiv.className = "innerDivClass";
+      title.innerHTML = `<h3>${mapping9[i].title}</h3>`;
+      para.innerHTML = `<p>${mapping9[i].para}</p>`;
+      client.innerHTML = `<p><span>Client: </span>${mapping9[i].Client}</p>`;
+      location.innerHTML = `<p><span>Location: </span>${mapping9[i].Location}</p>`;
+
+      newDiv.appendChild(innerDiv);
+      innerDiv.appendChild(title);
+      innerDiv.appendChild(para);
+      innerDiv.appendChild(client);
+      innerDiv.appendChild(location);
+
+      Photogrammetry.appendChild(newDiv);
+    }
+    //Bamboo Assessment
+    var bamboo = document.getElementById("projectsList10");
+
+    for (var i = 0; i < mapping10.length; i++) {
+      var newDiv = document.createElement("div");
+      newDiv.id = "item" + mapping10[i].id;
+      newDiv.className = "itemClass";
+
+      var projectImgDiv = document.createElement("div");
+      projectImgDiv.className = "projectImg-div";
+
+      let img = document.createElement("img");
+
+      img.className = "projectImg";
+
+      img.src = mapping10[i].img;
+
+      projectImgDiv.appendChild(img);
+      newDiv.appendChild(projectImgDiv);
+
+      var innerDiv = document.createElement("div");
+      var title = document.createElement("h3");
+      var para = document.createElement("p");
+      var client = document.createElement("p");
+      var location = document.createElement("p");
+      innerDiv.className = "innerDivClass";
+      title.innerHTML = `<h3>${mapping10[i].title}</h3>`;
+      para.innerHTML = `<p>${mapping10[i].para}</p>`;
+      client.innerHTML = `<p><span>Client: </span>${mapping10[i].Client}</p>`;
+      location.innerHTML = `<p><span>Location: </span>${mapping10[i].Location}</p>`;
+
+      newDiv.appendChild(innerDiv);
+      innerDiv.appendChild(title);
+      innerDiv.appendChild(para);
+      innerDiv.appendChild(client);
+      innerDiv.appendChild(location);
+
+      bamboo.appendChild(newDiv);
+    }
+
+    //Data Collection Application
+    var dataCollection = document.getElementById("projectsList11");
+
+    for (var i = 0; i < mapping11.length; i++) {
+      var newDiv = document.createElement("div");
+      newDiv.id = "item" + mapping11[i].id;
+      newDiv.className = "itemClass";
+
+      var projectImgDiv = document.createElement("div");
+      projectImgDiv.className = "projectImg-div";
+
+      let img = document.createElement("img");
+
+      img.className = "projectImg";
+
+      img.src = mapping11[i].img;
+
+      projectImgDiv.appendChild(img);
+      newDiv.appendChild(projectImgDiv);
+
+      var innerDiv = document.createElement("div");
+      var title = document.createElement("h3");
+      var para = document.createElement("p");
+      var client = document.createElement("p");
+      var location = document.createElement("p");
+      innerDiv.className = "innerDivClass";
+      title.innerHTML = `<h3>${mapping11[i].title}</h3>`;
+      para.innerHTML = `<p>${mapping11[i].para}</p>`;
+      client.innerHTML = `<p><span>Client: </span>${mapping11[i].Client}</p>`;
+      location.innerHTML = `<p><span>Location: </span>${mapping11[i].Location}</p>`;
+
+      newDiv.appendChild(innerDiv);
+      innerDiv.appendChild(title);
+      innerDiv.appendChild(para);
+      innerDiv.appendChild(client);
+      innerDiv.appendChild(location);
+
+      dataCollection.appendChild(newDiv);
     }
   }
 };
