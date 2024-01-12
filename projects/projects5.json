@@ -11,7 +11,7 @@
       },
       {
         "title": "Preparation of Gaunpalika/Nagarpalika Level Land Resource Maps, Database and Reports of Jumla District",
-        "img": "../images/jumla-landuse-chandannath.JPG",
+        "img": "../images/landuse-jumla.JPG",
         "para": "The project included field inventory of soil, agro-forest, and other land uses along with preparation of Municipal Level Present Land Use, Zoning, Soil, Capability, Risk Hazard Maps. Preparation of Profile for Land Use Zoning and preparation of Cadastral Map to Superimpose on Land Use Zoning Maps was also carried out",
         "Client": "GoN/Department of Survey/Topographical Survey & Landuse Management Division",
         "Location": "Jumla District",
@@ -123,7 +123,7 @@
       },
       {
         "title": "Urban Base Map and Integrated Municipal GIS of Kathmandu Metropolitan City, Ward No -35",
-        "img": "",
+        "img": "../images/urban-map-ktm.JPG",
         "para": "Preparation of GIS-based Integrated Municipal GIS Map of Kathmandu Metropolitan City Ward-35 Development of Municipal Geographical Information System incorporating addressing system, existing infrastructures, demography socio-economy census survey, environment, administration units etc. Development and establishment of effective metric house",
         "Client": "Kathmandu Metropolitan City Office",
         "Location": "Kathmandu Metropolitan ",
@@ -139,7 +139,7 @@
       },
       {
         "title": "Urban Map of Bhimeshwor Municipality",
-        "img": "",
+        "img": "../images/bhimeshwor.JPG",
         "para": "",
         "Client": "GoN/DUDBC",
         "Location": "Bhimeshwor Municipality, Dolakha",
@@ -147,7 +147,7 @@
       },
       {
         "title": "Urban Map of Vyas Municipality",
-        "img": "",
+        "img": "../images/urban-map-vyas.JPG",
         "para": "",
         "Client": "GoN/DUDBC",
         "Location": "Vyas Municipality, Tanahun",
@@ -203,7 +203,7 @@
       },
       {
         "title": "Poverty Mapping Gender Assessment and Need Identification for the Poor in Bharatpur",
-        "img": "",
+        "img": "../images/urban-poverty-mapping-bharatpur.JPG",
         "para": "The project was carried out to enhance the pro-poor urban governance of municipalities and develop the basis for pro-poor program through poverty mapping and gender assessment.",
         "Client": "Bharatpur Municipality, UEIP, UN Habitat",
         "Location": "Bharatpur Municipality",
@@ -322,7 +322,7 @@
         "Timeline": ""
       },
       {
-        "img": "",
+        "img": "../images/RSLUP-urban-growth-trend-ktm-valley.JPG",
         "title": "Comprehensive Study of Urban Growth Trend and Forecasting of Land Use in Kathmandu Valley",
         "para": "",
         "Client": "UNDP/CDRMP",
