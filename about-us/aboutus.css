@@ -15,6 +15,10 @@
      object-fit: cover;
 }
 
+#about-us h1 {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .team-members-grid {
     grid-template-columns: 33% 33% 33%;

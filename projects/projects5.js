@@ -1,11 +1,15 @@
 let land = document.querySelector(".land");
-let projectsList = document.getElementById("projectsList");
+let projectsList1 = document.getElementById("projectsList");
 
 land.addEventListener("click", function () {
-  if (projectsList.style.display === "block") {
-    projectsList.style.display = "none";
+  if (projectsList1.style.display === "block") {
+    projectsList1.style.display = "none";
+    //land.style.backgroundColor = "white";
+    //land.style.color = "black";
   } else {
-    projectsList.style.display = "block";
+    projectsList1.style.display = "block";
+    // land.style.backgroundColor = "#289025";
+    //land.style.color = "white";
   }
 
   projectsList2.style.display = "none";
@@ -14,6 +18,11 @@ land.addEventListener("click", function () {
   projectsList4.style.display = "none";
   projectsList5.style.display = "none";
   projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let forest = document.querySelector(".forest");
@@ -21,15 +30,24 @@ let projectsList2 = document.getElementById("projectsList2");
 forest.addEventListener("click", function () {
   if (projectsList2.style.display === "block") {
     projectsList2.style.display = "none";
+    //forest.style.backgroundColor = "white";
+    //forest.style.color = "black";
   } else {
     projectsList2.style.display = "block";
+    // forest.style.backgroundColor = "#289025";
+    // forest.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList7.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
   projectsList5.style.display = "none";
   projectsList6.style.display = "none";
+  projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let urban = document.querySelector(".urban");
@@ -37,15 +55,23 @@ let projectsList3 = document.getElementById("projectsList3");
 urban.addEventListener("click", function () {
   if (projectsList3.style.display === "block") {
     projectsList3.style.display = "none";
+    //urban.style.backgroundColor = "white";
+    //urban.style.color = "black";
   } else {
     projectsList3.style.display = "block";
+    //urban.style.backgroundColor = "#289025";
+    //urban.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList4.style.display = "none";
   projectsList5.style.display = "none";
   projectsList6.style.display = "none";
   projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let hazard = document.querySelector(".hazard");
@@ -53,15 +79,23 @@ let projectsList4 = document.getElementById("projectsList4");
 hazard.addEventListener("click", function () {
   if (projectsList4.style.display === "block") {
     projectsList4.style.display = "none";
+    // hazard.style.backgroundColor = "white";
+    //hazard.style.color = "black";
   } else {
     projectsList4.style.display = "block";
+    //hazard.style.backgroundColor = "#289025";
+    // hazard.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList7.style.display = "none";
   projectsList3.style.display = "none";
   projectsList5.style.display = "none";
   projectsList6.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let risk = document.querySelector(".risk");
@@ -69,15 +103,23 @@ let projectsList5 = document.getElementById("projectsList5");
 risk.addEventListener("click", function () {
   if (projectsList5.style.display === "block") {
     projectsList5.style.display = "none";
+    // risk.style.backgroundColor = "white";
+    //risk.style.color = "black";
   } else {
     projectsList5.style.display = "block";
+    //risk.style.backgroundColor = "#289025";
+    //risk.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
   projectsList7.style.display = "none";
   projectsList6.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let training = document.querySelector(".training");
@@ -85,15 +127,23 @@ let projectsList6 = document.getElementById("projectsList6");
 training.addEventListener("click", function () {
   if (projectsList6.style.display === "block") {
     projectsList6.style.display = "none";
+    //training.style.backgroundColor = "white";
+    //training.style.color = "black";
   } else {
     projectsList6.style.display = "block";
+    // training.style.backgroundColor = "#289025";
+    //training.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
   projectsList5.style.display = "none";
   projectsList7.style.display = "none";
+  projectsList8.style.display = "none";
+  projectsList9.style.display = "none";
+  projectsList10.style.display = "none";
+  projectsList11.style.display = "none";
 });
 
 let uav = document.querySelector(".uav");
@@ -101,10 +151,14 @@ let projectsList7 = document.getElementById("projectsList7");
 uav.addEventListener("click", function () {
   if (projectsList7.style.display === "block") {
     projectsList7.style.display = "none";
+    // uav.style.backgroundColor = "white";
+    //uav.style.color = "black";
   } else {
     projectsList7.style.display = "block";
+    //uav.style.backgroundColor = "#289025";
+    //uav.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
@@ -120,10 +174,14 @@ let projectsList8 = document.getElementById("projectsList8");
 metric.addEventListener("click", function () {
   if (projectsList8.style.display === "block") {
     projectsList8.style.display = "none";
+    //metric.style.backgroundColor = "white";
+    //metric.style.color = "black";
   } else {
     projectsList8.style.display = "block";
+    //metric.style.backgroundColor = "#289025";
+    //metric.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
@@ -139,10 +197,14 @@ let projectsList9 = document.getElementById("projectsList9");
 photogrammetry.addEventListener("click", function () {
   if (projectsList9.style.display === "block") {
     projectsList9.style.display = "none";
+    //photogrammetry.style.backgroundColor = "white";
+    //photogrammetry.style.color = "black";
   } else {
     projectsList9.style.display = "block";
+    //photogrammetry.style.backgroundColor = "#289025";
+    //photogrammetry.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
@@ -158,10 +220,14 @@ let projectsList10 = document.getElementById("projectsList10");
 bamboo.addEventListener("click", function () {
   if (projectsList10.style.display === "block") {
     projectsList10.style.display = "none";
+    //bamboo.style.backgroundColor = "white";
+    //bamboo.style.color = "black";
   } else {
     projectsList10.style.display = "block";
+    //bamboo.style.backgroundColor = "#289025";
+    // bamboo.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
@@ -177,10 +243,14 @@ let projectsList11 = document.getElementById("projectsList11");
 dataCollection.addEventListener("click", function () {
   if (projectsList11.style.display === "block") {
     projectsList11.style.display = "none";
+    //dataCollection.style.backgroundColor = "white";
+    //dataCollection.style.color = "black";
   } else {
     projectsList11.style.display = "block";
+    //dataCollection.style.backgroundColor = "#289025";
+    //dataCollection.style.color = "white";
   }
-  projectsList.style.display = "none";
+  projectsList1.style.display = "none";
   projectsList2.style.display = "none";
   projectsList3.style.display = "none";
   projectsList4.style.display = "none";
@@ -191,6 +261,19 @@ dataCollection.addEventListener("click", function () {
   projectsList9.style.display = "none";
   projectsList10.style.display = "none";
 });
+
+/*function colorChangeOn() {
+  for (let i = 1; i < 12; i++) {
+    let currentList = document.getElementById(`projectsList${i}`);
+    if (currentList.style.display === "block") {
+      land.style.backgroundColor = "#289025";
+      land.style.color = "white";
+    } else {
+      land.style.backgroundColor = "white";
+      land.style.color = "black";
+    }
+  }
+}*/
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
@@ -210,7 +293,7 @@ xhttp.onreadystatechange = function () {
     let mapping11 = response[10].dataCollection;
 
     var parentContainer = document.getElementById("projectsList");
-
+    //LAND
     // Loop through the JSON data using a for loop
     for (var i = 0; i < mapping.length; i++) {
       var newDiv = document.createElement("div"); // Create a new div element

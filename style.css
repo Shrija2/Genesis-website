@@ -56,6 +56,9 @@ header li:hover {
   text-align: center;
 }
 
+#services ul {
+  margin-left: 10%;
+}
 #services h1 {
   text-align: center;
   margin-bottom: 3%;
@@ -123,7 +126,7 @@ header li:hover {
   padding-top: 30%;
 }
 #home-projects .seemore a:hover {
-  color: #289025;
+  color: #289025 !important;
 }
 
 #working-areas .grid {

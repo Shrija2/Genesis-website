@@ -64,6 +64,9 @@ header {
 //Services
 #services {
   //background-color: rgba(216, 241, 216, 0.5);
+  ul {
+    margin-left: 10%;
+  }
   h1 {
     text-align: center;
     margin-bottom: 3%;
@@ -137,7 +140,7 @@ header {
       padding-top: 30%;
     }
     a:hover {
-      color: #289025;
+      color: #289025 !important;
     }
   }
 }
