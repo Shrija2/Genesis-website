@@ -24,4 +24,19 @@
     color: #289025;
     border: solid 1px #289025;
   }
+  @media (max-width: 800px) {
+    #contact {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    #contact-grid {
+      display: block;
+      .form {
+        margin-right: 0;
+      }
+    }
+    .contact-info {
+      margin-top: 2rem;
+    }
+  }
 }

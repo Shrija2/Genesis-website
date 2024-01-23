@@ -23,4 +23,19 @@
   background-color: white;
   color: #289025;
   border: solid 1px #289025;
+}
+@media (max-width: 800px) {
+  #contact #contact {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #contact #contact-grid {
+    display: block;
+  }
+  #contact #contact-grid .form {
+    margin-right: 0;
+  }
+  #contact .contact-info {
+    margin-top: 2rem;
+  }
 }/*# sourceMappingURL=contact-style.css.map */

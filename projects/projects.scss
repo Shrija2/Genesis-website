@@ -90,6 +90,23 @@
     color: white;
   }
 }
+@media (max-width: 1400px) {
+  #accordian-experiences {
+    grid-template-columns: 29% 29% 29%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1000px) {
+  #accordian-experiences {
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 700px) {
+  #accordian-experiences {
+    display: block;
+  }
+}
 
 #projectsList3,
 #projectsList2,
@@ -103,8 +120,21 @@
 #projectsList10,
 #projectsList11 {
   display: none;
+}
+.m-left-right {
   margin-left: 5rem;
   margin-right: 5rem;
+}
+@media (max-width: 1200px) {
+  .m-left-right {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 700px) {
+  .itemClass {
+    display: block !important;
+  }
 }
 
 .para1,

@@ -14,6 +14,19 @@ a {
   color: $text-color !important;
 }
 
+.p-left-right {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+@media (max-width: 600px) {
+  .p-left-right {
+    padding-left: 1rem !important;
+  }
+}
+
+.container {
+  flex-wrap: none !important;
+}
 //Header
 .logo {
   width: 30%;
@@ -103,6 +116,21 @@ header {
   .accordion {
     --bs-accordion-border-color: none;
   }
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 50% 50%;
+    }
+  }
+  @media (max-width: 600px) {
+    .grid {
+      display: block;
+    }
+    .accordion-button {
+      border-bottom: solid 1px rgba(26, 25, 25, 0.5);
+      border-right: none;
+      margin-bottom: 10%;
+    }
+  }
 }
 
 //Section3
@@ -164,6 +192,12 @@ header {
   img {
     margin-right: 1%;
   }
+  @media (max-width: 900px) {
+    .grid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
 
 //Clients
@@ -182,6 +216,20 @@ header {
       object-fit: contain;
       width: 100%;
       height: 50%;
+    }
+  }
+  @media (max-width: 900px) {
+    .client-grid {
+      grid-template-columns: 15% 15% 15% 15% 15% 15%;
+
+      div {
+        width: 100%;
+        height: 70px;
+        img,
+        svg {
+          object-fit: contain;
+        }
+      }
     }
   }
 }
@@ -206,6 +254,14 @@ header {
     text-align: right;
     p {
       margin-right: 5%;
+    }
+  }
+  @media (max-width: 600px) {
+    .grid {
+      display: block;
+    }
+    .follow-us {
+      text-align: left;
     }
   }
 }
