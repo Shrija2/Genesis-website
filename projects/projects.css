@@ -73,31 +73,37 @@
   width: 20rem;
   font-size: 1.2rem;
 }
-#accordian-experiences .active,
 #accordian-experiences .accordianProjects:hover {
   background-color: #289025;
   color: white;
 }
-#accordian-experiences .accordianProjects:active {
+#accordian-experiences .active {
   background-color: #289025;
   color: white;
 }
 
 @media (max-width: 1400px) {
   #accordian-experiences {
-    grid-template-columns: 29% 29% 29%;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: space-between;
+  }
+  #accordian-experiences .accordianProjects {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 16rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  #accordian-experiences {
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
   #accordian-experiences {
     grid-template-columns: 45% 45%;
     justify-content: space-between;
-  }
-}
-@media (max-width: 700px) {
-  #accordian-experiences {
-    display: block;
   }
 }
 #projectsList3,

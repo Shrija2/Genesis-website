@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .active-button {
+        background-color: green;
+        color: white;
+      }
+
+      .inactive-button {
+        background-color: gray;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="button1" class="" onclick="onButton(1)">Button 1</button>
+    <button id="button2" class="" onclick="onButton(2)">Button 2</button>
+
+    <script>
+      function onButton(buttonNumber) {
+        let button = document.getElementById(`button${buttonNumber}`);
+
+        document.querySelectorAll(".active-button").forEach(function (btn) {
+          btn.classList.remove("active-button");
+        });
+        if (button.classList.contains("active-button")) {
+          button.classList.remove("active-button");
+        } else {
+          button.classList.add("active-button");
+        }
+      } /*
+      function activateButton(buttonNumber) {
+        // Activate the clicked button
+        document
+          .getElementById(`button${buttonNumber}`)
+          .classList.add("active-button");
+      }
+
+      function deactivateAllButtons() {
+        // Deactivate all buttons by removing the 'active-button' class
+        const buttons = document.querySelectorAll("button");
+        buttons.forEach((button) => {
+          if (button.classList === "inactive-button") {
+            button.classList.remove("active-button");
+          } else {
+            button.classList.add("inactive-button");
+          }
+        });
+      }*/
+    </script>
+  </body>
+</html>

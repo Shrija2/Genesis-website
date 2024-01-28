@@ -4,12 +4,12 @@ let projectsList1 = document.getElementById("projectsList");
 land.addEventListener("click", function () {
   if (projectsList1.style.display === "block") {
     projectsList1.style.display = "none";
-    //land.style.backgroundColor = "white";
-    //land.style.color = "black";
+    land.style.backgroundColor = "white";
+    land.style.color = "black";
   } else {
     projectsList1.style.display = "block";
-    // land.style.backgroundColor = "#289025";
-    //land.style.color = "white";
+    land.style.backgroundColor = "#289025";
+    land.style.color = "white";
   }
 
   projectsList2.style.display = "none";
@@ -262,7 +262,7 @@ dataCollection.addEventListener("click", function () {
   projectsList10.style.display = "none";
 });
 
-/*function colorChangeOn() {
+function colorChangeOn() {
   for (let i = 1; i < 12; i++) {
     let currentList = document.getElementById(`projectsList${i}`);
     if (currentList.style.display === "block") {
@@ -273,7 +273,7 @@ dataCollection.addEventListener("click", function () {
       land.style.color = "black";
     }
   }
-}*/
+}
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
