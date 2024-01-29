@@ -19,6 +19,12 @@
   text-align: center;
 }
 
+#carouselExampleAutoplaying img {
+  height: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 900px) {
   .team-members-grid {
     grid-template-columns: 33% 33% 33%;

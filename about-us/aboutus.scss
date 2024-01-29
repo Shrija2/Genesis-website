@@ -19,6 +19,12 @@
     text-align: center;
   }
 }
+#carouselExampleAutoplaying {
+  img {
+    height: 50rem;
+    object-fit: cover;
+  }
+}
 
 @media (max-width: 900px) {
   .team-members-grid {
