@@ -340,6 +340,14 @@
   },
   {
     "Training": [
+       {
+        "img": "../images/social_training.JPG",
+        "title": "सामाजिक तथा आर्थिक सर्वेक्षण तालिम",
+        "para": "",
+        "Client": "Ward 20, Lalitpur Meterpolitian City ",
+        "Location": "Ward 20, Lalitpur Meterpolitian City",
+        "Timeline": ""
+      },
       {
         "img": "../images/training-agri.JPG",
         "title": "कर्णाली प्रदेशको जोखिम संवेदनशील भूउपयोग योजना सम्बन्धि अभिमुखिकरण तालिम कार्यक्रम",
